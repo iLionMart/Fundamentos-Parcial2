@@ -9,10 +9,10 @@ public class Main {
             System.out.println("Ambos numeros soj iguales");
         }else if (a>b){
             System.out.println(a + " es mayor a " + b);
-            X = a + b;
+            x = a + b;
         }else if (b>a){
             System.out.println(b + " es mayor a " + a);
-            X = a - b;
+            x = a - b;
         }
     }
 }
