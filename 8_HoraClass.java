@@ -18,6 +18,6 @@ public class main {
             hora= 0;
         }
 
-        System.out.println("La nueva hora tras es el segundo es: " + hora + " con " + min + " minutos " + " con " + seg + " segundos");
+        System.out.println("La nueva hora tras es el segundo es: " + hora + " horas con " + min + " minutos " + " con " + seg + " segundos");
     }
 }
