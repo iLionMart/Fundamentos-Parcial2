@@ -13,12 +13,13 @@ public class main {
         int mescumple = mesactual - mes;
         int Ncumple = Nactual - N;
 
-        System.out.println("La edad del usuario es " + Ncumple);
-
         if (diacumple == 0 && mescumple == 0){
             System.out.println("Hoy es tu cumpleaños!!!! felicidades");
         }else{
+            Ncumple = Ncumple - 1;
             System.out.println("Faltan " + diacumple + " dias " + mescumple + " meses");
         }
+
+       System.out.println("La edad del usuario es " + Ncumple);
     }
 }
