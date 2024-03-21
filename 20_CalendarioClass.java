@@ -3,7 +3,7 @@ public class main {
         
         int dias = 9;
         int idmeses = 3;
-        int años = 2024;
+        int n = 2024;
         int diassumados = 15;
         int id= 1;
         String dia= null, diasig= null, diaant= null;
@@ -18,7 +18,7 @@ public class main {
     
         while (dias >365){
             dias= dias - 365;
-            años= años + 1;
+            n= n + 1;
         }
         
         while (dias >31){
@@ -92,7 +92,7 @@ public class main {
         }
     
     
-        System.out.println("Tu calendario es del " + dias + " de " + mes + " del " + años);
+        System.out.println("Tu calendario es del " + dias + " de " + mes + " del " + n);
         System.out.println("El dia de la semana es " + dia);
         System.out.println("El dia siguiente es " + diasig);
         System.out.println("El dia anterior fue " + diaant);
